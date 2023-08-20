@@ -1,0 +1,37 @@
+.collab-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    height: 70px;
+    background-color: antiquewhite;
+    position: relative;
+}
+.collab-left {
+    display: flex;
+    align-items: center;
+}
+.dots {
+    height: 24px;
+}
+.collab-users {
+margin-left: 65px;
+}
+.p-circle {
+    top: 15px;
+    left: 15px;
+    position: absolute;
+    border-radius: 13px;
+    height: 24px;
+    width: 24px;
+    object-fit: cover;
+}
+.p-height {
+    top: 24px;
+    left: 24px;
+    position: absolute;
+    height: 24px;
+    width: 24px; 
+    object-fit: cover;
+    z-index: 1;
+}
