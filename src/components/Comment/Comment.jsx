@@ -4,11 +4,11 @@ import { AiOutlineHeart } from "react-icons/ai";
 import userData from '../../../../workshop-1/src/utilites/data';
 
 
-function Comment({userData}) {
+function Comment({userData, size}) {
   return (
     <div className='comment-container'>
       <section className='comment-left'>
-      <img src={userData.avatar} alt={userData.username} />
+      <img src={userData.avatar} style={size} alt={userData.username} />
       <section>
         <p><span className='user-pr'>{userData.username}</span>{userData.comment}<span className='hashtag'>{userData.hashtag}</span></p>
         <div className='actions'>
