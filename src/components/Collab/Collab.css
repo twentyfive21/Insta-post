@@ -4,8 +4,8 @@
     align-items: center;
     width: 500px;
     height: 70px;
-    background-color: antiquewhite;
     position: relative;
+    border-bottom: 1px solid #EFEFEF;
 }
 .collab-left {
     display: flex;
@@ -15,10 +15,10 @@
     height: 24px;
 }
 .collab-users {
-margin-left: 65px;
+    margin-left: 65px;
 }
 .p-circle {
-    top: 15px;
+    top: 17px;
     left: 15px;
     position: absolute;
     border-radius: 13px;
@@ -27,11 +27,17 @@ margin-left: 65px;
     object-fit: cover;
 }
 .p-height {
-    top: 24px;
+    top: 25px;
     left: 24px;
     position: absolute;
     height: 24px;
     width: 24px; 
     object-fit: cover;
     z-index: 1;
+    border: 1px solid white;
+    border-radius: 13px;
+}
+.date {
+    font-size: 11px;
+    padding-top: 4px;
 }
