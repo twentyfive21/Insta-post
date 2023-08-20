@@ -7,6 +7,7 @@
     background-color: white;
     position: absolute;
     margin-top: -27px;
+    z-index: 2;
 }
 .actions-container img {
     height: 24px;
@@ -18,6 +19,7 @@
     position: relative;
     padding: 20px 18px;
     border-bottom: 1px solid #EFEFEF;
+    background-color: white;
 }
 .action-info {
     display: flex;

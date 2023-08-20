@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import './App.css'
-import Post from './components/Post/Post'
+import CommentPage from './pages/CommentPage'
 
 function App() {
 
   return (
     <>
-    <Post />
+    <CommentPage />
     </>
   )
 }
