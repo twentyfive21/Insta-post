@@ -7,6 +7,11 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
+body{
+    background-color: #918f8f;
+}
+
 span {
     font-weight: 400;
 }
