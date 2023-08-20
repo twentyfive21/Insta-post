@@ -2,8 +2,9 @@
     display: flex;
     justify-content: space-between;
     width: 500px;
-    margin: 10px 0px;
+    padding: 14px 0px;
     position: relative;
+    background-color: white;
 }
 .comment-left {
     display: flex;
@@ -19,10 +20,10 @@
     border-radius: 20px;
 }
 .heart-comment {
-    font-size: 12px;
+    font-size: 13px;
     position: absolute;
-    left: 478px;
-    top: 15px;
+    left: 475px;
+    top: 30px;
 }
 .user-pr {
     margin-right: 6px;
