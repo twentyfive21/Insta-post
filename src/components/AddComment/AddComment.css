@@ -1,0 +1,21 @@
+.ac-box {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    align-items: center;
+}
+.ac-innerbox {
+    display: flex;
+    align-items: center;
+}
+.ac-innerbox p {
+    padding-top: 3px;
+    color: #262626;
+}
+.ac-innerbox img {
+    padding-right: 15px;
+}
+.post {
+    color: #B3DBFF;
+}
