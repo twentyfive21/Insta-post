@@ -8,4 +8,3 @@
 ### Project Highlights
 * React: The project leverages the power of React to efficiently manage the user interface components and their interactions, providing a seamless and responsive experience.
 * Vite: Vite is used as the build tool for this project, ensuring fast development and build times while optimizing the performance of the application.
-* Functionality: While this clone might not have all the features of the real Instagram, it demonstrates fundamental functionalities such as user authentication, uploading and displaying images, and interacting with posts.
