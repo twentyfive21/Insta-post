@@ -7,6 +7,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
+/* search icon and heart react icons */
+/* import { HiOutlineSearch } from "react-icons/hi"; color #999999  */
+/* import { AiOutlineHeart, AiFillHeart} from "react-icons/ai";  */
+
 /* ~~~~~~~~~ Main Colors ~~~~~~~~ */
 :root {
   --black: #262626;
