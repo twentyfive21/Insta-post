@@ -1,11 +1,9 @@
 import React from 'react'
 import './Actions.css'
-// import { AiOutlineHeart } from "react-icons/ai";
 import comment from '../../assets/comment.png'
 import heart from '../../assets/lgheart.png'
 import send from '../../assets/send.png'
 import bookmark from '../../assets/bookmark.png'
-import userData from '../../../../workshop-1/src/utilites/data';
 
 function Actions({userData}) {
   return (

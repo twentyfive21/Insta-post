@@ -1,8 +1,6 @@
 import React from 'react'
 import './Comment.css'
 import { AiOutlineHeart } from "react-icons/ai";
-import userData from '../../../../workshop-1/src/utilites/data';
-
 
 function Comment({userData, size}) {
   return (
