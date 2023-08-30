@@ -8,7 +8,6 @@
 }
 
 /* search icon and heart react icons */
-/* import { HiOutlineSearch } from "react-icons/hi"; color #999999  */
 /* import { AiOutlineHeart, AiFillHeart} from "react-icons/ai";  */
 
 /* ~~~~~~~~~ Main Colors ~~~~~~~~ */
@@ -17,7 +16,4 @@
   --grey: #8E8E8E;
   --blue: #0095F6;
 
-  /* input colors */
-  --input-bc: #EFEFEF;
-  --input-text: #777777;
 }
