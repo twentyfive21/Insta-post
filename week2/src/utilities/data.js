@@ -69,26 +69,32 @@ const userData = [
     id: 1,
     users: [
       {
+        key: 4,
         username: "aurelio",
         src: aur, 
       },
       {
+        key: 5,
         username: "saraali",
         src: sara, 
       },
       {
+        key: 6,
         username: "vella",
         src: vella, 
       },
       {
+        key: 7,
         username: "peter",
         src: peter, 
       },
       {
+        key: 8,
         username: "lowell",
         src: lowell, 
       },
       {
+        key: 9,
         username: "roy",
         src: roy, 
       },
