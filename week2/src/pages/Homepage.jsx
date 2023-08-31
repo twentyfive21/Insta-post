@@ -2,14 +2,19 @@ import React from 'react'
 import './Homepage.css'
 import Header from '../components/Header/Header'
 import Follow from '../components/Follow/Follow'
+import Stories from '../components/Stories/Stories'
+import next from '../assets/posts/next.png'
 
 function Homepage({userData}) {
   return (
     <div>
     <Header />
-    <section>
-      <div>
-
+    <section className='main-container'>
+      <div className='stories-container'>
+        {
+          userData[1].users.map((item, index) => <Stories item={item} index={index} key={item.key}/>)
+        }
+        <img className='stories-nextbtn' src={next} alt='next-btn'/>
       </div>
       <div className='follow-right'>
       <Follow item={userData[0].users[0]} style={{backgroundColor: '#F5F5F5'}}   />
