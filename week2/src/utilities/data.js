@@ -113,11 +113,6 @@ const userData = [
         following: "Followed by chirag_sin",
         src: fel, 
       },
-      {
-        username: "R",
-        following: "Follow",
-        src: '', 
-      },
     ]
   },
   {
