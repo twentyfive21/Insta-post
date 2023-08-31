@@ -11,7 +11,7 @@ body {
     width: 351px;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 10px;
+    padding: 4px 10px 10px 10px;
     background-color: #FFFFFF;
 }
 .right-sug p:nth-child(1) {
@@ -21,4 +21,8 @@ body {
 .right-sug p:nth-child(2) {
     color: #262626;
     font-size: 11px;
+}
+.follow-right div:nth-child(7){
+    background-color: #FFFFFF;
+    padding-bottom: 20px;
 }

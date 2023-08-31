@@ -3,7 +3,7 @@
     width: 351px;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 10px;
+    padding: 10px 15px;
     background-color: #FFFFFF;
 }
 .follow-left {
@@ -23,6 +23,7 @@
     font-size: 14px;
     color: #262626;
     font-weight: 600;
+    margin-bottom: 3px;
 }
 .follow-bottom{
     font-size: 11px;
