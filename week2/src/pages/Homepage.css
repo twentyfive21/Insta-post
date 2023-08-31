@@ -5,6 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 150px;
 }
 .right-sug {
     display: flex;
@@ -25,4 +26,26 @@ body {
 .follow-right div:nth-child(7){
     background-color: #FFFFFF;
     padding-bottom: 20px;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+.stories-container {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    border: 1px solid #D0D0D0;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    height: 116px;
+    width: 470px;
+    margin-top: 10px;
+    position: relative;
+}
+.stories-nextbtn {
+    position: absolute;
+    z-index: 1;
+    top: 38px;
 }
