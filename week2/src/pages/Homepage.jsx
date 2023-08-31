@@ -5,6 +5,7 @@ import Follow from '../components/Follow/Follow'
 import Stories from '../components/Stories/Stories'
 import next from '../assets/posts/next.png'
 import Suggest from '../components/Suggest/Suggest'
+import Posts from '../components/Posts/Posts'
 
 function Homepage({userData}) {
   return (
@@ -18,9 +19,8 @@ function Homepage({userData}) {
           }
           <img className='stories-nextbtn' src={next} alt='next-btn'/>
           </div>
-          <div className='suggest-container'>
+          <Posts item={userData[3].users[0]}/>
           <Suggest item={userData[2].users}/>
-          </div>
       </div>
       <div className='follow-right'>
           <Follow item={userData[0].users[0]} style={{backgroundColor: '#F5F5F5'}}   />
