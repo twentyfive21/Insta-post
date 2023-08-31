@@ -20,8 +20,8 @@ import gAvatar from '../assets/posts/genAvatar.png'
 import oPost from '../assets/posts/gate.png'
 import oAvatar from '../assets/posts/gateAvatar.png'
 // suggest imgs 
-import fel from '../assets/posts/fel.png'
-import tyler from '../assets/posts/tyler.png'
+import fel from '../assets/suggest/fel.png'
+import tyler from '../assets/suggest/tyler.png'
 
 const userData = [
   {
@@ -31,31 +31,37 @@ const userData = [
            username: "upvox_",
            following: "Upvox",
            src: upvox, 
+           status: 'Switch',
         },
         {
             username: "imkir",
             following: "Follows you",
-            src: imkir, 
+            src: imkir,
+            status: 'Follow', 
         },
         {
             username: "organic__al",
             following: "Followed by chirag_singla17",
             src: org, 
+            status: 'Follow', 
         },
         {
             username: "im_gr",
             following: "Followed by chirag_singla17",
             src: im, 
+            status: 'Follow',
         },
         {
             username: "abh952",
             following: "Follows you",
             src: abh, 
+            status: 'Follow', 
         },
         {
             username: "sakbrl",
             following: "Follows you",
             src: sak, 
+            status: 'Follow', 
         },
     ]
   },
