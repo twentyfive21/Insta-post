@@ -1,5 +1,4 @@
 import React from 'react'
-import userData from '../../utilities/data';
 import './Follow.css'
 
 function Follow({item, style}) {
