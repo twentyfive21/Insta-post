@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import './App.css'
 import Homepage from './pages/Homepage'
+import userData from './utilities/data'
 
 function App() {
 
   return (
     <>
-    <Homepage />
+    <Homepage userData={userData} />
     </>
   )
 }
