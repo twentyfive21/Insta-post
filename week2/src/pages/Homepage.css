@@ -5,7 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 150px;
+    margin-left: 100px;
 }
 .right-sug {
     display: flex;
@@ -41,7 +41,7 @@ body {
     display: flex;
     height: 116px;
     width: 470px;
-    margin-top: 10px;
+    margin: 10px 0px 20px 0px;
     position: relative;
 }
 .stories-nextbtn {
@@ -49,6 +49,8 @@ body {
     z-index: 1;
     top: 38px;
 }
-/* .left-container {
-
-} */
+.all-posts {
+    background-color: #FFFFFF;
+    padding-bottom: 10px;
+    border-radius: 8px 8px 0 0;
+}
