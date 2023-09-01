@@ -13,11 +13,18 @@
 .user-left {
     display: flex;
     align-items: center;
+    font-size: 14px;
+    position: relative;
+}
+.blue-check {
+    position: absolute;
+    top: 16px;
+    left: 127px;
 }
 .user-left img:first-child {
     margin-right: 8px;
 }
-.username-section img:last-child {
+.username-section img:nth-child(2) {
     width: 16px;
     height: 3.5px;
     margin-right: 8px;
