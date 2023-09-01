@@ -2,6 +2,7 @@
     background-color: #FFFFFF;
     border-radius: 8px;
     border: 1px solid #D0D0D0;
+    margin-bottom: 20px;
 }
 .username-section{
     display: flex;
@@ -34,3 +35,80 @@
     left: 435px;
     position:absolute;
 }
+.interact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 10px;
+    cursor: pointer;
+}
+.like-btn {
+    font-size: 30px;
+    margin-right: 7px;
+    margin-top: 2px;
+}
+.like-filled {
+    color: pink;
+}
+.interact-left {
+    display: flex;
+    align-items: center;
+}
+.interact-left img {
+    margin: 0px 7px;
+}
+.interact-left button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.comment-container{
+    width: 470px;
+    padding: 10px 15px;
+}
+.comment-section {
+    display: flex;
+    justify-content: space-between;
+}
+.comment-section img {
+    width: 13px;
+    height: 14px;
+}
+.comment-likes {
+    font-size: 13px;
+    margin: 4px 0px;
+}
+.caption, .comment-user {
+    font-size: 13.58px;
+    margin-bottom: 6px;
+}
+.comment-text {
+    font-weight: 300;
+    font-size: 13.58px;
+    margin-left: 5px;
+}
+.caption span {
+    font-weight: 300;
+}
+.translation {
+    font-size: 11.64px;
+    margin-bottom: 6px;
+}
+.comment-count{
+    color: #8E8E8E;
+    font-size: 12.61px;
+    margin-bottom: 3px;
+    font-weight: 100;
+}
+.add-comment{
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 20px;
+    border: none;
+    width: 430px;
+}
+.added-comment {
+    margin: 2px 0px;
+}
+
+
