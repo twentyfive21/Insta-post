@@ -12,7 +12,7 @@ function Suggest({item}) {
         <div className='suggest-users'>
         {
         item.map(user => 
-        <div className='suggest-box'>
+        <div className='suggest-box' key={user.key}>
             <img src={x} className='x' alt='x' />
             <img src={user.src} alt={user.username}/>
             <section>
