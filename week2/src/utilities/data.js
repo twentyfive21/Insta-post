@@ -104,11 +104,13 @@ const userData = [
     id: 2,
     users: [
       {
+        key: 10,
         username: "Tyler Nix",
         following: "Follows you",
         src: tyler, 
       },
       {
+        key: 11,
         username: "Fellipe Ditadi",
         following: "Followed by chirag_sin",
         src: fel, 
