@@ -12,13 +12,13 @@ import smile from '../../assets/posts/smile.png'
 function Posts({item, style}) {
 
     const [like, setLike] = useState(false)
-    const [comments, setComments] = useState([]);
+    const [comments, setComments] = useState([])
+    const [input, setInput] = useState('')
 
     const handleSubmit = e => {
         e.preventDefault();
         const newComment = e.target.elements.comment.value;
         setComments(prev => [...prev, newComment]);
-        
     }
   return (
     <div className='single-post'>

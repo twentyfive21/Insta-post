@@ -6,4 +6,6 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
-
+img {
+  -webkit-user-drag: none;
+}
