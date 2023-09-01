@@ -107,6 +107,9 @@
     border: none;
     width: 430px;
 }
+.add-comment::placeholder {
+    color: #262626;
+}
 .added-comment {
     margin: 2px 0px;
 }
