@@ -8,12 +8,12 @@ import comment from '../../assets/posts/comment.png'
 import share from '../../assets/posts/share.png'
 import save from '../../assets/posts/save.png'
 import smile from '../../assets/posts/smile.png'
+import blueCheck from '../../assets/posts/blue.png'
 
-function Posts({item, style}) {
+function Posts({item, index}) {
 
     const [like, setLike] = useState(false)
     const [comments, setComments] = useState([])
-    const [input, setInput] = useState('')
 
     const handleSubmit = e => {
         e.preventDefault();
@@ -26,13 +26,18 @@ function Posts({item, style}) {
         <div className='user-left'>
             <img src={item.avatar} alt={item.username} />
             <p>{item.username}</p>
+            {
+            index === 2 && <img src={blueCheck} className='blue-check' alt='blue check'/>
+            }
         </div>
         <img src={dotDark} alt='dots'/>
         </div>
         <div className='user-img'>
             <img src={item.post} alt={item.username}/>
             <img src={dotLight} className='user-dot' alt='dots'/>
-            <img src={next} style={style} className='user-next' alt='next-btn'/>
+            {
+            index === 0 && <img src={next} className='user-next' alt='next-btn'/>
+            }
         </div>
         <div className='interact-section'>
             <div className='interact-left'>
