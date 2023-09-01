@@ -20,10 +20,10 @@ function Homepage({userData}) {
           <img className='stories-nextbtn' src={next} alt='next-btn'/>
           </div>
           <div className='all-posts'>
-          <Posts item={userData[3].users[0]}/>
-          <Posts item={userData[3].users[1]} style={{display: 'none'}}/>
+          <Posts item={userData[3].users[0]} index={0}/>
+          <Posts item={userData[3].users[1]} index={1}/>
           <Suggest item={userData[2].users}/>
-          <Posts item={userData[3].users[2]} style={{display: 'none'}}/>
+          <Posts item={userData[3].users[2]} index={2}/>
           </div>
       </div>
       <div className='follow-right'>
