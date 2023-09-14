@@ -8,8 +8,6 @@ function App() {
   const {handleButton, button} = Toggle();
   const {size, handleResize, screen} = Screen();
 
-
-
   useEffect(()=>{
     if(button){
       window.addEventListener('resize', handleResize) 
@@ -18,7 +16,6 @@ function App() {
       window.removeEventListener('resize', handleResize)
     }
    },[button, handleResize])
-
 
   return (
     <div ref={screen}>
@@ -33,4 +30,4 @@ function App() {
 }
 
 export default App
-// window.clientHeight, window.clientWidth
+
