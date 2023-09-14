@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
 import Clock from "./Clock";
+import Toggle from "../../week3/src/Toggle";
 
 import "./App.css";
 
 function App() {
-  const [runClock, setRunClock] = useState(true);
+  const {button, handleButton} = Toggle()
 
   useEffect(() => {
     
@@ -12,10 +13,10 @@ function App() {
 
   return (
     <section>
-      <button onClick={() => setRunClock(!runClock)}>
-        {runClock ? "Turn off Clock" : "Turn on Clock"}
+      <button onClick={handleButton}>
+        {button ? "Turn off Clock" : "Turn on Clock"}
       </button>
-      {runClock && <Clock/>}
+      {button && <Clock/>}
     </section>
   );
 }
