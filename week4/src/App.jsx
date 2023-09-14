@@ -8,7 +8,7 @@ function App() {
 
   useEffect(() => {
     
-  }, [runClock]);
+  }, []);
 
   return (
     <section>
