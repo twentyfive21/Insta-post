@@ -1,37 +1,30 @@
 import { useState, useEffect, useRef } from 'react';
 import './App.css'
+import Toggle from './Toggle';
+import Screen from './Screen';
 
 function App() {
 
-  const screen = useRef();
-  const [resize, setResize] = useState(true)
-  const [size, setSize] = useState({
-    width: 0,
-    height: 0
-  })
+  const {handleButton, button} = Toggle();
+  const {size, handleResize, screen} = Screen();
 
-  const handleResize = () => {
-    setSize({
-      width: screen.current.clientWidth,
-      height: screen.current.clientHeight
-    })
-  }
+
 
   useEffect(()=>{
-    if(resize){
+    if(button){
       window.addEventListener('resize', handleResize) 
     }
     return () => {
       window.removeEventListener('resize', handleResize)
     }
-   },[resize])
+   },[button, handleResize])
 
 
   return (
     <div ref={screen}>
      <h1>Window Screen Size</h1>
-     <button onClick={()=>setResize(!resize)}>
-    {resize ? 'Turn resize off' : 'Turn resize on'}
+     <button onClick={handleButton}>
+    {button ? 'Turn resize off' : 'Turn resize on'}
     </button>
      <p>Width : {size.width}px</p>
      <p>Height : {size.height}px</p>
